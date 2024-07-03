@@ -41,7 +41,7 @@ gsap.from("#page2 #box2", {
 // });
 
 gsap.to("#pageTwo #boxTwo h1", {
-  transform: "translateX(-250%)",
+  transform: "translateX(-80%)",
   duration: 2,
   scrollTrigger: {
     trigger: "#pageTwo",
