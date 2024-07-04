@@ -24,19 +24,19 @@ function breakTheTextFunction() {
 breakTheTextFunction();
 
 gsap.from("h1 .firstPart", {
-  y: -100,
+  y: 100,
   duration: 0.8,
   ease: "elastic.out(1,0.3)",
   opacity: 0,
-  delay: 0.5,
-  stagger: 0.5,
+  delay: 0.6,
+  stagger: 0.15,
 });
 
 gsap.from("h1 .lastPart", {
-  y: -100,
+  y: 100,
   duration: 0.8,
   opacity: 0,
   ease: "elastic.out(1,0.3)",
-  delay: 0.5,
-  stagger: -0.5,
+  delay: 0.6,
+  stagger: -0.15,
 });
